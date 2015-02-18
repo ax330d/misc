@@ -1,0 +1,387 @@
+I have written simple plugin to enumerate IDA Pro shortcuts basically to find out 
+which shortcuts are still free. Maybe this list will be usefil for someone else too.
+
+--------------------------------------------------------------------------------------
+Alt-F0
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Ctrl-F0
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-F0
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Alt-0
+
+Shortcut Alt+0 is used for two actions:
+  
+  OutputWindow
+Shortcut for "OutputWindow" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CtrlF0
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-0
+
+--------------------------------------------------------------------------------
+Alt-F1
+
+Shortcut Alt+F1 is used for two actions:
+  
+  ManualOperand
+Shortcut for "ManualOperand" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Ctrl-F1
+
+Shortcut Ctrl+F1 is used for two actions:
+  
+  ExternalHelp
+Shortcut for "ExternalHelp" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-F1
+
+Shortcut Shift+F1 is used for two actions:
+  
+  OpenLocalTypes
+Shortcut for "OpenLocalTypes" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Alt-1
+
+Shortcut Alt+1 is used for two actions:
+  
+  WindowActivate1
+Shortcut for "WindowActivate1" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CtrlF1
+
+Shortcut Ctrl+1 is used for two actions:
+  
+  QuickView
+Shortcut for "QuickView" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-1
+
+--------------------------------------------------------------------------------
+Alt-F2
+
+Shortcut Alt+F2 is used for two actions:
+  
+  ManualInstruction
+Shortcut for "ManualInstruction" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Ctrl-F2
+
+Shortcut Ctrl+F2 is used for two actions:
+  
+  ProcessExit
+Shortcut for "ProcessExit" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-F2
+
+Shortcut Shift+F2 is used for two actions:
+  
+  ExecuteLine
+Shortcut for "ExecuteLine" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Alt-2
+
+Shortcut Alt+2 is used for two actions:
+  
+  WindowActivate2
+Shortcut for "WindowActivate2" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CtrlF2
+
+Shortcut Ctrl+2 is used for two actions:
+  
+  QuickDbgView
+Shortcut for "QuickDbgView" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-2
+
+--------------------------------------------------------------------------------
+Alt-F3
+
+Shortcut Alt+F3 is used for two actions:
+  
+  CloseWindow
+Shortcut for "CloseWindow" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Ctrl-F3
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-F3
+
+Shortcut Shift+F3 is used for two actions:
+  
+  OpenFunctions
+Shortcut for "OpenFunctions" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Alt-3
+
+Shortcut Alt+3 is used for two actions:
+  
+  WindowActivate3
+Shortcut for "WindowActivate3" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CtrlF3
+
+Shortcut Ctrl+3 is used for two actions:
+  
+  QuickRunPlugins
+Shortcut for "QuickRunPlugins" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-3
+
+--------------------------------------------------------------------------------
+Alt-F4
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Ctrl-F4
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-F4
+
+Shortcut Shift+F4 is used for two actions:
+  
+  OpenNames
+Shortcut for "OpenNames" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Alt-4
+
+Shortcut Alt+4 is used for two actions:
+  
+  WindowActivate4
+Shortcut for "WindowActivate4" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CtrlF4
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-4
+
+--------------------------------------------------------------------------------
+Alt-F5
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Ctrl-F5
+
+Shortcut Ctrl+F5 is used for two actions:
+  
+  hx:CreateCFile
+Shortcut for "hx:CreateCFile" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-F5
+
+Shortcut Shift+F5 is used for two actions:
+  
+  OpenSignatures
+Shortcut for "OpenSignatures" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Alt-5
+
+Shortcut Alt+5 is used for two actions:
+  
+  WindowActivate5
+Shortcut for "WindowActivate5" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CtrlF5
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-5
+
+--------------------------------------------------------------------------------
+Alt-F6
+
+Shortcut Alt+F6 is used for two actions:
+  
+  Edit/Plugins/Create IDT file
+Shortcut for "Edit/Plugins/Create IDT file" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Ctrl-F6
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-F6
+
+Shortcut Shift+F6 is used for two actions:
+  
+  PrevWindow
+Shortcut for "PrevWindow" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Alt-6
+
+Shortcut Alt+6 is used for two actions:
+  
+  WindowActivate6
+Shortcut for "WindowActivate6" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CtrlF6
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-6
+
+--------------------------------------------------------------------------------
+Ctrl-F7
+
+Shortcut Ctrl+F7 is used for two actions:
+  
+  ThreadRunUntilReturn
+Shortcut for "ThreadRunUntilReturn" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-F7
+
+Shortcut Shift+F7 is used for two actions:
+  
+  OpenSegments
+Shortcut for "OpenSegments" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Alt-7
+
+Shortcut Alt+7 is used for two actions:
+  
+  WindowActivate7
+Shortcut for "WindowActivate7" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CtrlF7
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-7
+
+--------------------------------------------------------------------------------
+Alt-F8
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Ctrl-F8
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-F8
+
+Shortcut Shift+F8 is used for two actions:
+  
+  OpenSegmentRegisters
+Shortcut for "OpenSegmentRegisters" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Alt-8
+
+Shortcut Alt+8 is used for two actions:
+  
+  WindowActivate8
+Shortcut for "WindowActivate8" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CtrlF8
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-8
+
+--------------------------------------------------------------------------------
+Alt-F9
+
+Shortcut Alt+F9 is used for two actions:
+  
+  RecentScripts
+Shortcut for "RecentScripts" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Ctrl-F9
+
+Shortcut Ctrl+F9 is used for two actions:
+  
+  LoadHeaderFile
+Shortcut for "LoadHeaderFile" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-F9
+
+Shortcut Shift+F9 is used for two actions:
+  
+  OpenStructures
+Shortcut for "OpenStructures" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Alt-9
+
+Shortcut Alt+9 is used for two actions:
+  
+  WindowActivate9
+Shortcut for "WindowActivate9" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CtrlF9
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-9
+
+--------------------------------------------------------------------------------
+Alt-F10
+
+Shortcut Alt+F10 is used for two actions:
+  
+  ProduceAsm
+Shortcut for "ProduceAsm" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Ctrl-F10
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-F10
+
+Shortcut Shift+F10 is used for two actions:
+  
+  OpenEnums
+Shortcut for "OpenEnums" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Alt-10
+
+Shortcut Alt+ is used for two actions:
+  
+  
+"" will be deleted.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CtrlF10
+
+Shortcut Ctrl+ is used for two actions:
+  
+  
+"" will be deleted.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-10
+
+Shortcut Shift+ is used for two actions:
+  
+  
+"" will be deleted.
+--------------------------------------------------------------------------------
+Alt-F11
+
+Shortcut Alt+F11 is used for two actions:
+  
+  Edit/Plugins/Change the callee address
+Shortcut for "Edit/Plugins/Change the callee address" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Ctrl-F11
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-F11
+
+Shortcut Shift+F11 is used for two actions:
+  
+  OpenTypeLibraries
+Shortcut for "OpenTypeLibraries" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Alt-11
+
+Shortcut Alt+ is used for two actions:
+  
+  
+"" will be deleted.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CtrlF11
+
+Shortcut Ctrl+ is used for two actions:
+  
+  
+"" will be deleted.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-11
+
+Shortcut Shift+ is used for two actions:
+  
+  
+"" will be deleted.
+--------------------------------------------------------------------------------
+Parse errors:
+<Diagnostic severity 3, location <SourceLocation file 'decompiled-src.cpp', line 1, column 17>, spelling "use of undeclared identifier 'CElement'">
