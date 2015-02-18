@@ -1,328 +1,439 @@
 I have written simple plugin to enumerate IDA Pro shortcuts basically to find out 
 which shortcuts are still free. Maybe this list will be usefil for someone else too.
 
---------------------------------------------------------------------------------------
 Alt-F0
 
+Shortcut Alt+ is used for two actions:
+  
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Ctrl-F0
 
+Shortcut Ctrl+ is used for two actions:
+  
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-F0
 
+Shortcut Shift+ is used for two actions:
+  
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Alt-0
 
 Shortcut Alt+0 is used for two actions:
   
-  OutputWindow
-Shortcut for "OutputWindow" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 CtrlF0
 
+Shortcut Ctrl+0 is used for two actions:
+  
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-0
 
+Shortcut Shift+0 is used for two actions:
+  
+  
+"" will be deleted.
 --------------------------------------------------------------------------------
 Alt-F1
 
 Shortcut Alt+F1 is used for two actions:
   
-  ManualOperand
-Shortcut for "ManualOperand" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Ctrl-F1
 
 Shortcut Ctrl+F1 is used for two actions:
   
-  ExternalHelp
-Shortcut for "ExternalHelp" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-F1
 
 Shortcut Shift+F1 is used for two actions:
   
-  OpenLocalTypes
-Shortcut for "OpenLocalTypes" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Alt-1
 
 Shortcut Alt+1 is used for two actions:
   
-  WindowActivate1
-Shortcut for "WindowActivate1" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 CtrlF1
 
 Shortcut Ctrl+1 is used for two actions:
   
-  QuickView
-Shortcut for "QuickView" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-1
 
+Shortcut Shift+1 is used for two actions:
+  
+  
+"" will be deleted.
 --------------------------------------------------------------------------------
 Alt-F2
 
 Shortcut Alt+F2 is used for two actions:
   
-  ManualInstruction
-Shortcut for "ManualInstruction" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Ctrl-F2
 
 Shortcut Ctrl+F2 is used for two actions:
   
-  ProcessExit
-Shortcut for "ProcessExit" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-F2
 
 Shortcut Shift+F2 is used for two actions:
   
-  ExecuteLine
-Shortcut for "ExecuteLine" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Alt-2
 
 Shortcut Alt+2 is used for two actions:
   
-  WindowActivate2
-Shortcut for "WindowActivate2" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 CtrlF2
 
 Shortcut Ctrl+2 is used for two actions:
   
-  QuickDbgView
-Shortcut for "QuickDbgView" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-2
 
+Shortcut Shift+2 is used for two actions:
+  
+  
+"" will be deleted.
 --------------------------------------------------------------------------------
 Alt-F3
 
 Shortcut Alt+F3 is used for two actions:
   
-  CloseWindow
-Shortcut for "CloseWindow" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Ctrl-F3
 
+Shortcut Ctrl+F3 is used for two actions:
+  
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-F3
 
 Shortcut Shift+F3 is used for two actions:
   
-  OpenFunctions
-Shortcut for "OpenFunctions" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Alt-3
 
 Shortcut Alt+3 is used for two actions:
   
-  WindowActivate3
-Shortcut for "WindowActivate3" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 CtrlF3
 
 Shortcut Ctrl+3 is used for two actions:
   
-  QuickRunPlugins
-Shortcut for "QuickRunPlugins" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-3
 
+Shortcut Shift+3 is used for two actions:
+  
+  
+"" will be deleted.
 --------------------------------------------------------------------------------
 Alt-F4
 
+Shortcut Alt+F4 is used for two actions:
+  
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Ctrl-F4
 
+Shortcut Ctrl+F4 is used for two actions:
+  
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-F4
 
 Shortcut Shift+F4 is used for two actions:
   
-  OpenNames
-Shortcut for "OpenNames" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Alt-4
 
 Shortcut Alt+4 is used for two actions:
   
-  WindowActivate4
-Shortcut for "WindowActivate4" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 CtrlF4
 
+Shortcut Ctrl+4 is used for two actions:
+  
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-4
 
+Shortcut Shift+4 is used for two actions:
+  
+  
+"" will be deleted.
 --------------------------------------------------------------------------------
 Alt-F5
 
+Shortcut Alt+F5 is used for two actions:
+  
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Ctrl-F5
 
 Shortcut Ctrl+F5 is used for two actions:
   
-  hx:CreateCFile
-Shortcut for "hx:CreateCFile" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-F5
 
 Shortcut Shift+F5 is used for two actions:
   
-  OpenSignatures
-Shortcut for "OpenSignatures" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Alt-5
 
 Shortcut Alt+5 is used for two actions:
   
-  WindowActivate5
-Shortcut for "WindowActivate5" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 CtrlF5
 
+Shortcut Ctrl+5 is used for two actions:
+  
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-5
 
+Shortcut Shift+5 is used for two actions:
+  
+  
+"" will be deleted.
 --------------------------------------------------------------------------------
 Alt-F6
 
 Shortcut Alt+F6 is used for two actions:
   
-  Edit/Plugins/Create IDT file
-Shortcut for "Edit/Plugins/Create IDT file" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Ctrl-F6
 
+Shortcut Ctrl+F6 is used for two actions:
+  
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-F6
 
 Shortcut Shift+F6 is used for two actions:
   
-  PrevWindow
-Shortcut for "PrevWindow" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Alt-6
 
 Shortcut Alt+6 is used for two actions:
   
-  WindowActivate6
-Shortcut for "WindowActivate6" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 CtrlF6
 
+Shortcut Ctrl+6 is used for two actions:
+  
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-6
 
+Shortcut Shift+6 is used for two actions:
+  
+  
+"" will be deleted.
 --------------------------------------------------------------------------------
 Ctrl-F7
 
 Shortcut Ctrl+F7 is used for two actions:
   
-  ThreadRunUntilReturn
-Shortcut for "ThreadRunUntilReturn" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-F7
 
 Shortcut Shift+F7 is used for two actions:
   
-  OpenSegments
-Shortcut for "OpenSegments" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Alt-7
 
 Shortcut Alt+7 is used for two actions:
   
-  WindowActivate7
-Shortcut for "WindowActivate7" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 CtrlF7
 
+Shortcut Ctrl+7 is used for two actions:
+  
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-7
 
+Shortcut Shift+7 is used for two actions:
+  
+  
+"" will be deleted.
 --------------------------------------------------------------------------------
 Alt-F8
 
+Shortcut Alt+F8 is used for two actions:
+  
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Ctrl-F8
 
+Shortcut Ctrl+F8 is used for two actions:
+  
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-F8
 
 Shortcut Shift+F8 is used for two actions:
   
-  OpenSegmentRegisters
-Shortcut for "OpenSegmentRegisters" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Alt-8
 
 Shortcut Alt+8 is used for two actions:
   
-  WindowActivate8
-Shortcut for "WindowActivate8" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 CtrlF8
 
+Shortcut Ctrl+8 is used for two actions:
+  
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-8
 
+Shortcut Shift+8 is used for two actions:
+  
+  
+"" will be deleted.
 --------------------------------------------------------------------------------
 Alt-F9
 
 Shortcut Alt+F9 is used for two actions:
   
-  RecentScripts
-Shortcut for "RecentScripts" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Ctrl-F9
 
 Shortcut Ctrl+F9 is used for two actions:
   
-  LoadHeaderFile
-Shortcut for "LoadHeaderFile" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-F9
 
 Shortcut Shift+F9 is used for two actions:
   
-  OpenStructures
-Shortcut for "OpenStructures" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Alt-9
 
 Shortcut Alt+9 is used for two actions:
   
-  WindowActivate9
-Shortcut for "WindowActivate9" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 CtrlF9
 
+Shortcut Ctrl+9 is used for two actions:
+  
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-9
 
+Shortcut Shift+9 is used for two actions:
+  
+  
+"" will be deleted.
 --------------------------------------------------------------------------------
 Alt-F10
 
 Shortcut Alt+F10 is used for two actions:
   
-  ProduceAsm
-Shortcut for "ProduceAsm" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Ctrl-F10
 
+Shortcut Ctrl+F10 is used for two actions:
+  
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-F10
 
 Shortcut Shift+F10 is used for two actions:
   
-  OpenEnums
-Shortcut for "OpenEnums" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Alt-10
 
@@ -349,18 +460,22 @@ Alt-F11
 
 Shortcut Alt+F11 is used for two actions:
   
-  Edit/Plugins/Change the callee address
-Shortcut for "Edit/Plugins/Change the callee address" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Ctrl-F11
 
+Shortcut Ctrl+F11 is used for two actions:
+  
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-F11
 
 Shortcut Shift+F11 is used for two actions:
   
-  OpenTypeLibraries
-Shortcut for "OpenTypeLibraries" will be disabled.
+  
+"" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Alt-11
 
@@ -377,6 +492,48 @@ Shortcut Ctrl+ is used for two actions:
 "" will be deleted.
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 Shift-11
+
+Shortcut Shift+ is used for two actions:
+  
+  
+"" will be deleted.
+--------------------------------------------------------------------------------
+Alt-F12
+
+Shortcut Alt+F12 is used for two actions:
+  
+  Edit/Plugins/Jump to next fixup
+Shortcut for "Edit/Plugins/Jump to next fixup" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Ctrl-F12
+
+Shortcut Ctrl+F12 is used for two actions:
+  
+  CallFlow
+Shortcut for "CallFlow" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-F12
+
+Shortcut Shift+F12 is used for two actions:
+  
+  OpenStrings
+Shortcut for "OpenStrings" will be disabled.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Alt-12
+
+Shortcut Alt+ is used for two actions:
+  
+  
+"" will be deleted.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+CtrlF12
+
+Shortcut Ctrl+ is used for two actions:
+  
+  
+"" will be deleted.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Shift-12
 
 Shortcut Shift+ is used for two actions:
   
