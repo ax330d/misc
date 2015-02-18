@@ -383,5 +383,3 @@ Shortcut Shift+ is used for two actions:
   
 "" will be deleted.
 --------------------------------------------------------------------------------
-Parse errors:
-<Diagnostic severity 3, location <SourceLocation file 'decompiled-src.cpp', line 1, column 17>, spelling "use of undeclared identifier 'CElement'">
