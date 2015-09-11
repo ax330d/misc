@@ -4,7 +4,7 @@ Instructions to build interpreters with AddressSanitizer
 You can actually build not only with AddressSanitizer, there are more options
 to choose from: http://clang.llvm.org/docs/index.html. Also I prefer Clang.
 
-Updtae clang to the latest available version:
+Update clang to the latest available version:
 ```
 $ sudo apt-get install clang-3.4
 ```
@@ -51,9 +51,9 @@ Download Perl source code, extract.
 ```
 $ ./Configure -des -Doptimize="-g -O1" -DEBUGGING=both -Accflags=-fsanitize=address -Aldflags=-fsanitize=address -Alddlflags=-fsanitize=address -Dusethreads -Dusemultiplicity -Dusesitecustomize -Dusedevel -Uversiononly -Dcc=clang
 $ make
+$ make (second make required because makefile has been changed)
 ```
 
-Some broken installations may require running "make" second time.
 
 After build your binary will be located in: ./perl
 
