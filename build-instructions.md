@@ -49,7 +49,7 @@ After build your binary will be located in: ./sapi/cli/php
 Download Perl source code, extract.
 
 ```
-$ ./Configure -des -Doptimize="-g -O1" -DEBUGGING=both -Accflags="-fsanitize=address" -Aldflags=-fsanitize=address -Alddlflags=-fsanitize=address -Dusethreads -Dusemultiplicity -Dusesitecustomize -Dusedevel -Uversiononly -Dcc=clang
+$ ./Configure -des -Doptimize="-g -O1" -DEBUGGING=both -Accflags=-fsanitize=address -Aldflags=-fsanitize=address -Alddlflags=-fsanitize=address -Dusethreads -Dusemultiplicity -Dusesitecustomize -Dusedevel -Uversiononly -Dcc=clang
 $ make
 ```
 
