@@ -38,6 +38,8 @@ Contents of blacklist.txt:
 src:Zend/zend_hash.c
 ```
 
+Make sure you provide correct paths, otherwise blacklist will not apply.
+
 Blacklist file "blacklist.txt" and "--disable-phar" are required because PHP
 will crash either during build time, or right upon start.
 
@@ -66,4 +68,4 @@ After build your binary will be located in: ./Python
 
 ## Notes
 
-I have been building on Ubuntu 12.0, clang 3.4., also clean Ubuntu 14.0, clang 3.5.
+I have been building on Ubuntu 12.0, clang 3.4., also clean Ubuntu 14.0, clang 3.4.
