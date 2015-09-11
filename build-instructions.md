@@ -53,7 +53,7 @@ Download Perl source code, extract.
 ```
 $ ./Configure -des -Doptimize="-g -O1" -DEBUGGING=both -Accflags=-fsanitize=address -Aldflags=-fsanitize=address -Alddlflags=-fsanitize=address -Dusethreads -Dusemultiplicity -Dusesitecustomize -Dusedevel -Uversiononly -Dcc=clang
 $ make
-$ make (second make required because makefile has been changed)
+$ make (second make required when makefile has been changed)
 ```
 
 
