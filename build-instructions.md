@@ -56,6 +56,8 @@ $ make
 $ make (second make required when makefile has been changed)
 ```
 
+I recommend running build first without -fsanitize=address to avoid build
+issues. After first dry-run you can build with AddressSanitizer. 
 
 After build your binary will be located in: ./perl
 
