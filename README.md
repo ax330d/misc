@@ -11,9 +11,10 @@ Simple python tool to observe all opened windows properties.
 
 Python tool to automatically click on popups. Can be used with fuzzing
 tools.
-Files:
-    * click.py      tool itself
-    * sched.bat     bat file that automates click.py launch ever 120 seconds
-    * window.ini    configuration file (you can add own windows)
+
+List of files:
+ * click.py      tool itself
+ * sched.bat     bat file that automates click.py launch ever 120 seconds
+ * window.ini    configuration file (you can add own windows)
 
 Requires pywin32.
