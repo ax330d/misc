@@ -24,4 +24,7 @@ Requires pywin32.
 This is a simple and ugly script to enumerate elements properties
 (or HTML*Element or HTMLElement or Element or Node or whatever).
 
+Attributes are clickable, you will see contents in console.log, also
+you can hide blocks.
+
 ![Elements](images/elements.png)
