@@ -18,3 +18,10 @@ List of files:
  * window.ini - configuration file (you can add own windows)
 
 Requires pywin32.
+
+### elements.html
+
+This is a simple and ugly script to enumerate elements properties
+(or HTML*Element or HTMLElement or Element or Node or whatever).
+
+![Elements](images/elements.png)
