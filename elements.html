@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Inheritance and attributes table</title>
+        <script type="text/javascript">
+
+            var $ = {};
+            $.lib = {};
+
+            $.lib = {
+                realTypeOf: function(obj) {
+                    var val = null;
+                    try {
+                        val = Object.prototype.toString.call(obj).match(/\[object (\w+)\]/)[1];
+                    } catch(e) {
+
+                    }
+
+                    return val;
+                },
+
+                uniqueAry: function(more, less) {
+                    var newAry = [];
+                    more.forEach(function(elem) {
+                        if (less.indexOf(elem) !== -1) {
+                            return;
+                        }
+                        newAry.push(elem);
+                    });
+                    return newAry.sort();
+                }
+            };
+
+            function toggleShow(e) {
+                if (e.nextElementSibling.style.display !== 'none') {
+                    e.nextElementSibling.style.display = 'none';
+                } else {
+                    e.nextElementSibling.style.display = 'block';
+                }
+            }
+
+            function prepare()
+            {
+                var html = ["a", "abbr", "address", "area", "article", "aside", "audio", "b", "base", "bdi", "bdo", "blockquote", "body", "br", "button", "canvas", "caption", "cite", "code", "col", "colgroup", "command", "content", "custom", "datalist", "dialog", "dd", "del", "details", "dfn", "div", "dl", "dt", "em", "embed", "fieldset", "figcaption", "figure", "footer", "form", "h1", "h2", "h3", "h4", "h5", "h6", "head", "header", "hgroup", "hr", "html", "i", "iframe", "img", "input", "ins", "isindex", "kdb", "keygen", "label", "legend", "li", "link", "map", "mark", "menu", "menuitem", "meta", "meter", "nav", "noscript", "object", "ol", "optgroup", "option", "output", "p", "param", "pre", "picture", "progress", "q", "rp", "rt", "ruby", "s", "samp", "script", "section", "select", "small", "source", "span", "strong", "style", "sub", "summary", "sup", "table", "tbody", "td", "textarea", "tfoot", "th", "thead", "time", "title", "tr", "track", "template", "u", "ul", "var", "video", "wbr", "xml", "x-ms-webview", "acronym", "applet", "basefont", "big", "center", "dir", "font", "frame", "frameset", "marquee", "noframes", "strike", "tt", "nextID", "plaintext"];
+                var cloudHTML = document.getElementById('cloud-html');
+                html.forEach(function(tag) {
+                    var a = document.createElement('a');
+                    a.setAttribute('onclick', 'show(null, \'' + tag + '\')');
+                    a.setAttribute('class', 'cloud');
+                    a.innerText = tag;
+                    cloudHTML.appendChild(a);
+                    cloudHTML.appendChild(document.createTextNode(' '));
+                });
+
+                var svg = ["a", "animate", "animatecolor", "animatemotion", "animatetransform", "animation", "audio", "circle", "clippath", "color-profile", "cursor", "defs", "desc", "discard", "ellipse", "font", "font-face", "font-face-src", "font-face-uri", "foreignobject", "feblend", "fecolormatrix", "fecomponenttransfer", "fecomposite", "feconvolvematrix", "fediffuselighting", "fedisplacementmap", "fedistantlight", "fefunca", "fefuncb", "febleng", "fefuncr", "fegaussianblur", "feimage", "femerge", "femergenode", "femorphology", "feoffset", "fepointlight", "fespecularlighting", "fespotlight", "fetile", "feturbulence", "filter", "feflood", "g", "glyph", "handler", "hkern", "image", "line", "lineargradient", "listener", "marker", "mask", "metadata", "missing-glyph", "mpath", "path", "pattern", "polygon", "polyline", "prefetch", "radialgradient", "rect", "script", "set", "solidcolor", "stop", "style", "svg", "switch", "symbol", "tbreak", "text", "textarea", "textpath", "title", "tspan", "use", "vkern", "video"];
+                var cloudSVG = document.getElementById('cloud-svg');
+                svg.forEach(function(tag) {
+                    var a = document.createElement('a');
+                    a.setAttribute('onclick', 'show(\'http://www.w3.org/2000/svg\', \'' + tag + '\')');
+                    a.setAttribute('class', 'cloud');
+                    a.innerText = tag;
+                    cloudSVG.appendChild(a);
+                    cloudSVG.appendChild(document.createTextNode(' '));
+                });
+
+                var mathml = ["math", "maction", "maligngroup", "malignmark", "menclose", "merror", "mfenced", "mfrac", "mglyph", "mi", "mlabeledtr", "mlongdiv", "multiscripts", "mn", "mo", "mover", "mpadded", "mphantom", "mroot", "mrow", "ms", "mscarries", "mscarry", "msgroup", "mstack", "msline", "mspace", "msqrt", "msrow", "mstyle", "msub", "msup", "msubsup", "mtable", "mtd", "mtext", "mtr", "munder", "munderover", "semantics", "annotation", "annotation-xml"];
+                var cloudMathml = document.getElementById('cloud-mathml');
+                mathml.forEach(function(tag) {
+                    var a = document.createElement('a');
+                    a.setAttribute('onclick', 'show(\'http://www.w3.org/1998/Math/MathML\', \'' + tag + '\')');
+                    a.setAttribute('class', 'cloud');
+                    a.innerText = tag;
+                    cloudMathml.appendChild(a);
+                    cloudMathml.appendChild(document.createTextNode(' '));
+                });
+            }
+
+            function addHeader(id, element, ary)
+            {
+                var tr = document.createElement('tr');
+                tr.setAttribute('class', 'header');
+
+                ary.forEach(function(elem) {
+                    var td = document.createElement('td');
+                    td.innerText = elem;
+                    tr.appendChild(td);
+                });
+                id.appendChild(tr);
+            }
+
+            function addRow(id, element, ary, _class)
+            {
+                _class = _class || null;
+                var tr = document.createElement('tr');
+                ary.forEach(function(elem) {
+                    var td = document.createElement('td');
+                    if (!elem) {
+                        td.innerText = "";
+                    } else {
+                        var rType = '';
+                        try {
+                            rType = $.lib.realTypeOf(element[elem]);
+                        } catch(e) {
+                            rType = "(error)";
+                        }
+                        td.innerHTML = elem + '&nbsp;<span id="info">[' + rType + ']</span>';
+                        td.onclick = function() {
+                            console.log(element[elem]);
+                        };
+                    }
+                    tr.appendChild(td);
+                });
+                id.appendChild(tr);
+            }
+
+            function getElement(ns, name)
+            {
+                if (!name) {
+                    name = document.getElementById('pick-element-name').value || null;
+                    ns =  document.querySelector('input[name="pick-element-ns"]:checked').value || null;
+                }
+
+                var sandbox = document.getElementById('sandbox');
+                sandbox.innerHTML = "";
+
+                if (ns) {
+                    return sandbox.appendChild(document.createElementNS(ns, name));
+                }
+
+                return sandbox.appendChild(document.createElement(name));
+            }
+
+            function show(ns, name)
+            {
+                var table = document.getElementById('content');
+                table.innerHTML = "";
+
+                var element = getElement(ns, name);
+
+                var cols = 1;
+                var _hash = {};
+                var val = Object.getPrototypeOf(element);
+                // Get __proto__ in hash
+                while(val) {
+                    cols += 1;
+                    new_val = Object.getPrototypeOf(val);
+                    if (!new_val) {
+                        break;
+                    }
+                    _hash[$.lib.realTypeOf(val)] = $.lib.uniqueAry(Object.keys(val), Object.keys(new_val));
+                    val = new_val;
+                }
+
+                var keys = Object.keys(_hash);
+
+                addHeader(table, element, keys);
+
+                // Find largest column
+                var largest = (function(){
+                    var max = 0;
+                    keys.forEach(function(key) {
+                        if (_hash[key].length > max) {
+                            max = _hash[key].length;
+                        }
+                    });
+                    return max;
+                })();
+
+                // Add remaining rows
+                for (var i = 0; i < largest; i += 1) {
+                    var ary = [];
+                    keys.forEach(function(key) {
+                        var elem = null;
+                        if (_hash[key][i]) {
+                            elem = _hash[key][i];
+                        }
+                        ary.push(elem);
+                    });
+                    addRow(table, element, ary);
+                }
+            }
+
+        </script>
+
+        <style type="text/css">
+            body {
+                font-family: monospace;;
+            }
+
+            a.cloud {
+                padding: 1px 3px 1px 3px;
+                background-color: lightblue;
+                margin: 3px;
+                line-height: 1.8em;
+                border-radius: 3px;
+            }
+
+            a:hover {
+                background-color: lightsteelblue;
+                cursor: pointer;
+            }
+
+            div#cloud-html, div#cloud-svg, div#cloud-mathml {
+                word-wrap: break-word;
+            }
+
+            fieldset {
+                border: 1px solid #ccc;
+                border-radius: 2px;
+                padding: 10px;
+                margin: 10px;
+            }
+
+            legend {
+                font-size: 1.4em;
+            }
+
+            table#content {
+                border-collapse: collapse;
+            }
+
+            tr.header {
+                background-color: #eee;
+                font-weight: bold;
+            }
+
+            td {
+                border: 1px solid #efefef;
+                padding: 3px;
+                font-size: 0.9em;
+            }
+
+            hr {
+                border: none;
+                border-bottom: 1px solid #ccc;
+            }
+
+            input {
+                margin: 3px;
+            }
+
+            span#info {
+                color: #ccc;
+            }
+
+        </style>
+    </head>
+
+    <body onload="prepare()">
+        <h1>Inheritance and attributes table</h1>
+
+        <div>
+            <fieldset>
+                <legend onclick="toggleShow(this)">HTML</legend>
+                <div id="cloud-html"></div>
+            </fieldset>
+
+            <fieldset>
+                <legend onclick="toggleShow(this)">SVG</legend>
+                <div id="cloud-svg"></div>
+            </fieldset>
+
+            <fieldset>
+                <legend onclick="toggleShow(this)">MathML</legend>
+                <div id="cloud-mathml"></div>
+            </fieldset>
+        </div>
+
+        <div>
+            <fieldset>
+                <legend onclick="toggleShow(this)">Custom</legend>
+                <div>
+                    <input type="text" id="pick-element-name" placeholder="tag..." /> Element name
+                    <br />
+                    <input type="radio" name="pick-element-ns" value="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"/> http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul
+                    <br />
+                    <input type="radio" name="pick-element-ns" value="http://www.w3.org/1999/xhtml"/> http://www.w3.org/1999/xhtml
+                    <br />
+                    <input type="radio" name="pick-element-ns" value="http://www.w3.org/2000/svg"/> http://www.w3.org/2000/svg
+                    <br />
+                    <input type="radio" name="pick-element-ns" value="http://www.w3.org/1999/xlink"/> http://www.w3.org/1999/xlink
+                    <br />
+                    <input type="radio" name="pick-element-ns" value="http://www.w3.org/1999/XSL/Transform"/> http://www.w3.org/1999/XSL/Transform
+                    <br />
+                    <input type="radio" name="pick-element-ns" value="http://www.w3.org/1998/Math/MathML"/> http://www.w3.org/1998/Math/MathML
+                    <br />
+                    <input type="radio" name="pick-element-ns" checked value=""/> null
+                    <br />
+                    <br />
+                    <input type="submit" value="Ok" onclick="show()" />
+                <div>
+            </fieldset>
+        </div>
+        <hr />
+        <table id="content"></table>
+        <div id="sandbox"></div>
+    </body>
+</html>
