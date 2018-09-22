@@ -6,6 +6,7 @@ from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
 from SocketServer import ThreadingMixIn
 import threading
 import cgi
+# FIXME: remove win32 dep
 import win32gui
 import win32con
 import win32process
